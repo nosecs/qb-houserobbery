@@ -4,12 +4,7 @@ game 'gta5'
 description 'QB-HouseRobbery'
 version '1.0.0'
 
-shared_scripts {
- 'config.lua',
- '@qb-core/shared/locale.lua',
- 'locales/en.lua'
-
-}
+shared_script 'config.lua'
 client_script 'client/main.lua'
 server_script 'server/main.lua'
 
